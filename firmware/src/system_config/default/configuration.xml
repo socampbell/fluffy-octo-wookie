@@ -15,24 +15,24 @@
         <Path>Header Files/framework/usb</Path>
       </File>
       <File>
-        <Name>sys_common.h</Name>
-        <Path>Header Files/framework/system/common</Path>
-      </File>
-      <File>
         <Name>drv_usb.h</Name>
         <Path>Header Files/framework/driver/usb</Path>
+      </File>
+      <File>
+        <Name>sys_common.h</Name>
+        <Path>Header Files/framework/system/common</Path>
       </File>
       <File>
         <Name>drv_tmr.h</Name>
         <Path>Header Files/framework/driver/tmr</Path>
       </File>
       <File>
-        <Name>usb_device_cdc.c</Name>
-        <Path>Source Files/framework/usb/src/dynamic</Path>
-      </File>
-      <File>
         <Name>sys_ports.c</Name>
         <Path>Source Files/framework/system/ports/src</Path>
+      </File>
+      <File>
+        <Name>usb_device_cdc.c</Name>
+        <Path>Source Files/framework/usb/src/dynamic</Path>
       </File>
       <File>
         <Name>usb_device.c</Name>
@@ -47,12 +47,12 @@
         <Path>Source Files/framework/system/devcon/src</Path>
       </File>
       <File>
-        <Name>usb_device.h</Name>
-        <Path>Header Files/framework/usb</Path>
-      </File>
-      <File>
         <Name>sys_tmr.h</Name>
         <Path>Header Files/framework/system/tmr</Path>
+      </File>
+      <File>
+        <Name>usb_device.h</Name>
+        <Path>Header Files/framework/usb</Path>
       </File>
       <File>
         <Name>sys_ports.h</Name>
@@ -107,20 +107,20 @@
         <Path>Header Files/framework/system/console/src</Path>
       </File>
       <File>
-        <Name>sys_console.c</Name>
-        <Path>Source Files/framework/system/console/src</Path>
-      </File>
-      <File>
         <Name>sys_int_pic32.c</Name>
         <Path>Source Files/framework/system/int/src</Path>
       </File>
       <File>
-        <Name>sys_console.h</Name>
-        <Path>Header Files/framework/system/console</Path>
+        <Name>sys_console.c</Name>
+        <Path>Source Files/framework/system/console/src</Path>
       </File>
       <File>
         <Name>sys_devcon_pic32mx.c</Name>
         <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>sys_console.h</Name>
+        <Path>Header Files/framework/system/console</Path>
       </File>
       <File>
         <Name>drv_usbfs.c</Name>
@@ -133,13 +133,13 @@
     </Files>
     <Templates>
       <Template>
-        <Name>main.c</Name>
-        <Path>Source Files/app</Path>
-      </Template>
-      <Template>
         <Name>system_exceptions.c</Name>
         <Path>Source Files/app/system_config/default</Path>
         <Checksum>C111969CA43D6CEA1E9E33A6164E7AE0</Checksum>
+      </Template>
+      <Template>
+        <Name>main.c</Name>
+        <Path>Source Files/app</Path>
       </Template>
       <Template>
         <Name>app.c</Name>
@@ -156,14 +156,8 @@
         <Checksum>431EC222227DBF2BC031EDD47C5CDEEB</Checksum>
       </Template>
       <Template>
-        <Name>system_interrupt.c</Name>
-        <Path>Source Files/app/system_config/default</Path>
-        <Checksum>E6385D0862DAB8D61B8BE1369B7CB230</Checksum>
-      </Template>
-      <Template>
-        <Name>sys_ports_static.c</Name>
-        <Path>Source Files/app/system_config/default/framework/system/ports/src</Path>
-        <Checksum>7375489306B78B803C1EE7FB9CCCF487</Checksum>
+        <Name>app.h</Name>
+        <Path>Header Files/app</Path>
       </Template>
       <Template>
         <Name>sys_clk_static.h</Name>
@@ -171,8 +165,14 @@
         <Checksum>999179DADE9ECD59953526F5E9F83ACC</Checksum>
       </Template>
       <Template>
-        <Name>app.h</Name>
-        <Path>Header Files/app</Path>
+        <Name>sys_ports_static.c</Name>
+        <Path>Source Files/app/system_config/default/framework/system/ports/src</Path>
+        <Checksum>7375489306B78B803C1EE7FB9CCCF487</Checksum>
+      </Template>
+      <Template>
+        <Name>system_interrupt.c</Name>
+        <Path>Source Files/app/system_config/default</Path>
+        <Checksum>E6385D0862DAB8D61B8BE1369B7CB230</Checksum>
       </Template>
       <Template>
         <Name>sys_clk_static.c</Name>
